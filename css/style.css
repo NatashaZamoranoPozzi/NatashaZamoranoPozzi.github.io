@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+main {
+    /* background-color: #b7b7b7; */
+    text-align: center;
+}
+header {
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.redes {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-top: 5%;
+    padding-right: 10%;
+}
+i {
+    color: #1d396c;
+    font-size: 2rem;
+    margin: 15%;
+}
+.text {
+    background-color: white;
+    border-radius: 1%;
+}
+h1 {
+    text-align: center;
+    color: #b7b7b7;
+    padding: 2%;
+}
+article {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+button {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#GG {
+    background-color: #ff7f50;
+    border-color: #ff7f50;
+}
+#LGTI {
+    background-color: #8e4aa7;
+    border-color: #8e4aa7;
+}
+#IQ {
+    background-color: #61d079;
+    border-color: #61d079;
+}
+
+.back {
+    margin: 1%;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2%;
+}
