@@ -74,14 +74,12 @@ font-weight: 800;
 #cicloPres {
     margin-right: 10%;
 }
-#arqueo {
-
-}
 
 .botones {
     display: flex;
     justify-content: center;
     padding-bottom: 3%;
+    margin-top: 3%;
 }
 button {
     margin-left: 1%;
@@ -105,6 +103,24 @@ button {
     margin: 1%;
 }
 
+.box img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      .box img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+
+#inicio {
+    background-color: #333333;
+    border-color: #333333;
+    color: white;
+} 
+  
 footer {
     background-color: #333333;
     color: white;
